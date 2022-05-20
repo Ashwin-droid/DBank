@@ -23,7 +23,7 @@ actor DBank {
     };
 
     public func hardReset() {
-        currentValue := 300;
+        currentValue := 1000;
         startTime := Time.now();
     };
 
